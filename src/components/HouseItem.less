@@ -1,0 +1,39 @@
+
+//最大的容容器，里面左右各一个子容器
+.HouseItem-box{
+  width:100%;
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+
+  //右侧
+  .right-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+ 
+   //房子介绍
+   .leftdiv{
+       display: flex;
+       flex-direction: column;
+       margin-left: 0.5rem;
+       line-height: 1.5rem;
+
+       .house-title{
+           font-size: 1.2rem;
+           font-weight: bold;
+       }
+       .info{
+           color: #4e4d4d;
+       }
+   }
+   //价格介绍
+   .rightdiv{
+       color: red;
+       font-size: 1rem;
+
+   }
+}
